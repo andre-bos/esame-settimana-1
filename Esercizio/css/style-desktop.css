@@ -1,0 +1,198 @@
+/* Impostazioni generali */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #393d41;
+    line-height: 1.65;
+}
+
+img {
+    width: 100%;
+    display: block;
+    margin: 2em 0;
+}
+
+/* Tipografia */
+
+h1,
+h2,
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+h1 {
+    margin-bottom: .5em;
+    
+}
+
+h3 {
+    margin-top: .8em;
+    margin-bottom: .3em; 
+}
+
+h1,
+h3 {
+    color: #25a2c3;
+}
+
+h1 {
+    font-size: 3.5rem;
+}
+
+h2 {
+    margin-bottom: 1em;
+    font-size: 2.5rem;
+}
+
+h3 {
+    font-size: 1.4rem;
+}
+
+h4 {
+    font-size: 2rem;
+}
+
+
+
+/* Layout */
+
+header {
+    padding: .5em;
+    background-color: #000;
+}
+
+header div {
+    width: 50%;
+    margin: 0 auto;
+}
+
+section {
+    padding: 2em 0;
+    text-align: center;
+}
+
+.section-container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.section-hero {
+    background-image: url('../images/banner.jpg');
+}
+
+.section-dark {
+    background-color: #e22d0e;
+    color: #fff;
+}
+
+/* ELEMENTI DELLA SECTION */
+
+section p {
+    margin-bottom: 3em;
+}
+
+.section-dark p:first-child {
+    font-style: italic;
+}
+
+.section-dark p:last-child {
+    margin-bottom: 0;
+}
+
+.section-hero button {
+    background: 0;
+    border: 0;
+    background-color: #f04c2f;
+    font-size: 1.3rem;
+    padding: 1em 2.5em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 8px;
+}
+
+.rounded-container {
+    width: 30%;
+    min-height: 90%;
+    margin-right: 2em;
+    display: inline-block;
+}
+
+.rounded-container img {
+    border-radius: 50%;
+}
+
+.container-vantaggi {
+    width: 30%;
+    display: inline-block;
+    
+}
+
+.box {
+    margin-bottom: 2em;
+    width: 27%;
+    margin-right: 2em;
+    display: inline-block;
+}
+
+.box img {
+    margin: 0;
+}
+
+.textbox {
+    border: 1px solid #dee1e3;
+    padding: 0 1.5em;
+    border-radius: 10px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #25a2c3;
+    text-align: center;
+    padding: 2em 0;
+    color: #fff;
+}
+
+footer a {
+    color: #fff;
+}
+
+footer h2 {
+    font-size: 3rem;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 2em;
+}
+
+footer li {
+    margin-bottom: .3em;
+}
+
+footer i {
+    margin-right: .5em;
+    font-size: 1.6rem;
+}
+
+footer address {
+    display: inline;
+}
+
+footer p {
+    border-top: 1px solid #fff;
+    padding-top: 2.5em;
+}
