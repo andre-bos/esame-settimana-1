@@ -99,7 +99,8 @@ section p {
     margin-bottom: 3em;
 }
 
-.section-dark p:first-child {
+.section-dark .section-container p:first-of-type {
+    font-weight: 400;
     font-style: italic;
 }
 
@@ -118,6 +119,7 @@ section p {
     color: #fff;
     text-transform: uppercase;
     border-radius: 8px;
+    cursor: pointer;
 }
 
 .rounded-container img {

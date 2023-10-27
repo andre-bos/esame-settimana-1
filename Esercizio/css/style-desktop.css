@@ -93,6 +93,11 @@ section {
     color: #fff;
 }
 
+.section-dark .section-container p:first-of-type {
+    font-weight: 400;
+    font-style: italic;
+}
+
 /* ELEMENTI DELLA SECTION */
 
 section p {
@@ -118,6 +123,7 @@ section p {
     color: #fff;
     text-transform: uppercase;
     border-radius: 8px;
+    cursor: pointer;
 }
 
 .rounded-container {
